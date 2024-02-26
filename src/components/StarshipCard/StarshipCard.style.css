@@ -1,0 +1,11 @@
+.starship-details{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
