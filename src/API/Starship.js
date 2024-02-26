@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const getStarships = async () => {
-    const { data } = await axios.get("https://swapi.dev/api/starships/") 
+export const getStarships = async (page) => {
+    const { data } = await axios.get(`https://swapi.dev/api/starships/?page=${page}`)
     return data
 }
 
