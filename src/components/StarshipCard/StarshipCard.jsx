@@ -1,6 +1,8 @@
 import React from 'react'
-import './StarshipCard.style.css'
 import { Link } from 'react-router-dom'
+import './StarshipCard.style.css'
+
+
 
 const StarshipCard = ({starship, setSelectedStarship}) => {
   return (
